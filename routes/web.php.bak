@@ -1,0 +1,43 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+//Route::get('test','Test\TestController@index');
+Route::get('show','Test\TestController@info');
+// Route::get('show',function(){
+// 	return view("abc",['name'=>"lisi"]);
+// });
+// Route::get('user/{id}',function($id){
+// 	echo $id;
+// })->where('id','[0-9]+');
+Route::get('test','Test\TestController@index');
+// Route::get('gogo','Test\TestController@gogo');
+// //Route::get('old','Test\TestController@old')->middleware('tt');
+// Route::get('old','Test\TestController@old');
+
+// Route::get('info','Info\InfoController@add');
+
+// Route::get('upload','Test\TestController@upload');
+// //Route::redirect('/here','/test',301);
+// Route::view('/welcome','welcome',['name'=>"lisi"]);
+//Route::get('tt','Info\InfoController@uu');
+// Route::get('lianxi','LianxiController@index');
+// Route::post('up','LianxiController@updata');
+// Route::prefix('admin')->group(function () {
+//     Route::get('users', function () {
+//         echo 4444444444;
+//     });
+// });
+
